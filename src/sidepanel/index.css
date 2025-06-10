@@ -17,10 +17,14 @@
     color-scheme: light dark;
     background-color: var(--color-dark-bg-color);
   }
+
+  a:hover {
+    color: var(--color-text-color);
+  }
 }
 
 body {
-  @apply m-0 min-w-[20rem] max-w-[40rem];
+  @apply m-0 min-w-[20rem];
 }
 
 @media (prefers-color-scheme: light) {
