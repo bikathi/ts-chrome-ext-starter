@@ -22,10 +22,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@crxjs/vite-plugin": "^2.0.0-beta.19",
-    "@types/chrome": "^0.0.246",
+    "@crxjs/vite-plugin": "^2.0.0-beta.33",
+    "@types/chrome": "^0.0.326",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
-    "vite": "^4.4.11"
+    "vite": "^6.3.5"
   }
 }
