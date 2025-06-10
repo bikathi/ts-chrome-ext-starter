@@ -1,5 +1,5 @@
 {
-  "name": "chrome-extension-vanilla-ts",
+  "name": "ts-chrome-ext-starter",
   "version": "0.0.0",
   "author": "",
   "description": "",
@@ -16,11 +16,14 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run fmt && tsc && vite build",
     "preview": "vite preview",
     "fmt": "prettier --write '**/*.{ts,json,css,scss,md}'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.33",
     "@types/chrome": "^0.0.326",
